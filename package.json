@@ -1,0 +1,23 @@
+{
+  "name": "eslint-plugin-file-structure-control",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itwillwork/eslint-plugin-file-structure-control.git"
+  },
+  "homepage": "https://github.com/itwillwork/eslint-plugin-file-structure-control",
+  "keywords": [
+    "file-structure-control",
+    "structure-control",
+    "structure",
+    "control",
+    "plugin",
+    "eslint",
+    "lint"
+  ],
+  "author": "",
+  "license": "ISC"
+}
