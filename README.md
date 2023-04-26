@@ -12,7 +12,7 @@ npm i --save-dev eslint-plugin-file-structure-control
 
 Create an .eslint.json file with the following:
 
-```
+```json
 "plugins": [
     "file-structure-control"
 ]
@@ -20,7 +20,7 @@ Create an .eslint.json file with the following:
 
 Then, you can add the custom rules to the .eslint.json file:
 
-```
+```json
 "rules": {
   "file-structure-control/sync-relative-files": "error"
 }
@@ -28,7 +28,7 @@ Then, you can add the custom rules to the .eslint.json file:
 
 To lint your project with ESLint, add the following script to your package.json:
 
-```
+```json
 {
   "scripts": {
     "lint": "eslint ."
@@ -48,7 +48,7 @@ npm run lint
 
 Config example:
 
-```
+```js
  "file-structure-control/sync-relative-files": ["error", {
       relations: {
         '.test.tsx': ['.tsx'],
